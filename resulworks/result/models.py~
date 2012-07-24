@@ -15,7 +15,7 @@ class StudentDep(models.Model):
         (u'ME',u'Mechanical Engineering'),
         (u'CHE',u'Chemical Engineering'),
         )
-    branch = models.CharField(max_length=150, choices=CHOICE, unique = True)
+    branch = models.CharField(max_length=150, choices=CHOICE)
     subjects =models.ManyToManyField(Subject)
     
     def __unicode__(self):
