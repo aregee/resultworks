@@ -1,0 +1,25 @@
+<p>You Searched for : <strong>{{ query }}</strong></p>
+
+{% if exams %}
+	<p>Found {{ exams|length }} exam{{ exams|pluralize }}.</p>
+	{% for student in stud %}
+		<li>{{ student.student_name }}</li>
+	{% endfor %}
+	<table border="1" cellpadding="5" cellspacing="5" width="50%">	
+	<tr>	
+	<th>Subject</th>
+	<th>Maximum Makrs</th>
+	<th>Marks Obtained</th>
+	</tr>	
+	<tr>	
+		{% for exam in exams %}
+		
+		<tr>
+		<td>{{ exam.subject }}</td><td>{{ exam.maximum_marks }}</td><td>{{ exam.marks_obtained  }}</li></td>
+		</tr>
+		{% endfor %}
+	</tr>
+	</table>
+{% else %}
+	<p> No record Found </p>
+{% endif %}
