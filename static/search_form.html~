@@ -3,7 +3,6 @@
     <title>Get Results</title>
 </head>
 <body>
-	<IMG src="examresults.JPG">
     <p>Enter your Roll Number</p>
     <form action="/search/" method="get">
         <input type="text" name="q">

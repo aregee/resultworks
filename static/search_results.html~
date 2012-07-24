@@ -4,7 +4,7 @@
 </head>
 <body>
 <H1 align="center">Place Holder For College Header</H1>
-
+<IMG src="examresults.JPG">
 </body>
 
 {% if exams %}
