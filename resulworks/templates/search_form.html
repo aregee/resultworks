@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Get Results</title>
+</head>
+
+<body>
+  <center>
+	<IMG src="{{ STATIC_URL }}img.JPG"/>
+    </center>
+    <center>
+    <p>Enter your Roll Number</p>
+    <form action="/search/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+    </form>
+    </center>
+</body>
+{% block footer %}
+<hr>
+<center>
+<div 
+<p> AregeeFrameWorks Production.</p></div></center>
+{% endblock %}
+
+</html>

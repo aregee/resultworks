@@ -2,9 +2,12 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
 from result.models import *
+from django.conf import settings
 
 
 def search_result(request):
+    resp = {}
+    resp['MEDIA_URL'] = settings.MEDIA_URL
     return render_to_response('search_form.html')
 
 def search(request):
