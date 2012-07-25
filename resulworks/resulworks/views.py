@@ -16,11 +16,15 @@ def search(request):
         
         stud = Student.objects.filter(student_id=q)
         var = 0
+        gtot = 0
         exams = Exam.objects.filter(student_id=q)
+        #for itr in exams:
+         #   gtot = gtot+itr.maximum_marks
         for tot in exams:
           var = var+tot.marks_obtained
+          
         
-        return direct_to_template(request,'search_results.html',{'exams':exams,'stud':stud,'total':var,'query' : q})
+        return direct_to_template(request,'search_results.html',{'exams':exams,'stud':stud,'total':var,'gtot':gtot,'query' : q})
         
     else: 
       

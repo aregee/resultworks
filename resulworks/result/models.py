@@ -37,5 +37,5 @@ class Exam(models.Model):
     student = models.ForeignKey(Student)
     subject = models.ForeignKey(Subject)
     student_dep = models.ForeignKey(StudentDep)
-    maximum_marks = models.CharField(max_length=100)
+    maximum_marks = models.IntegerField()#CharField(max_length=100)
     marks_obtained = models.IntegerField()
