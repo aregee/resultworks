@@ -5,8 +5,8 @@
 
 <body>
   <center>
-<!-- 	<IMG src="img.JPG"/> -->
-	<IMG src="{{ MEDIA_URL }}images/img.JPG"/>
+	<IMG src="img.JPG"/>
+	<IMG src="{{ STATIC_URL }}img.JPG"/>
     </center>
     <center>
     <p>Enter your Roll Number</p>
