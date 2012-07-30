@@ -6,7 +6,7 @@ class Subject(models.Model):
     subject = models.CharField(max_length=150, unique = True)
 
     def __unicode__(self):
-        return u'%s,%s'%(self.subject_id, self.subject)
+        return self.subject
 
 class StudentDep(models.Model):
     CHOICE = (
