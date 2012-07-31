@@ -46,19 +46,19 @@ This file is part of ResultWorks.
    For Heroku deployment do the following :
    Make a new Dir for ResultWorks 
 
-   $ mkdir resultworks && cd resultworks
+   	$ mkdir resultworks && cd resultworks
 
    Create a Virtualenv:
    
-   $ virtualenv venv --distribute
-   New python executable in venv/bin/python
-   Installing distribute...............done.
-   Installing pip...............done.
+   	$ virtualenv venv --distribute
+   	New python executable in venv/bin/python
+   	Installing distribute...............done.
+   	Installing pip...............done.
 
    To activate Environment You need to Source it:
    
 
-   $ source venv/bin/activate
+   	$ source venv/bin/activate
 
    Install dependencies with pip
 
@@ -70,12 +70,12 @@ This file is part of ResultWorks.
     .....................................
     ................................
 
-    Now add this upstream repo
+   Now add this upstream repo
     
     $ git remote add upstream -m master git@github.com:aregee/resultworks.git .
     $ git pull -s recursive -X theirs upstream master
 
-    Now Push to Heroku :
+   Now Push to Heroku :
         
     See Getting Started With Django on Heroku: <https://devcenter.heroku.com/articles/django>
     You will have to change the Database in settings.py to make it work with Postgre SQL if you are using MySQL or You have a mysql server configured use it.
