@@ -36,10 +36,10 @@ This file is part of ResultWorks.
     along with ResultWorks.If not, see <http://www.gnu.org/licenses/>.
 
 ### 2.Requirements 
-       For testing the app locally you need: 
-        Django==1.4
-   	MySQL 
-   	MySQL-python==1.2.3
+     For testing the app locally you need: 
+      Django==1.4
+      MySQL 
+      MySQL-python==1.2.3
       
   
 ### 3.Deployment 
