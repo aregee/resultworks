@@ -33,15 +33,14 @@ This file is part of ResultWorks.
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with ResultWorks.If not, see <http://www.gnu.org/licenses/>.
+    along with ResultWorks.If not, see http://www.gnu.org/licenses.
 
 ### 2.Requirements 
-     For testing the app locally you need: 
-      Django==1.4
-      MySQL 
-      MySQL-python==1.2.3
-      
-  
+     Django==1.4
+     MySQL-python==1.2.3
+     MySQL
+     
+
 ### 3.Deployment 
    For Heroku deployment do the following :
    Make a new Dir for ResultWorks 
@@ -79,6 +78,8 @@ Now Push to Heroku :
 See Getting Started With Django on Heroku: <https://devcenter.heroku.com/articles/django>
 You will have to change the Database in settings.py to make it work with Postgre SQL if you are using MySQL or You have a mysql server configured use it.
 I have also tired hosting Django Apps on Openshift and I Will create a seprate fork for that ..
+To run the app locally, cd into the dir and do 
+   ./manage.py runserver
     
 ### 4. Useful Links:
 Django Documentation <https://docs.djangoproject.com/en/1.4>
