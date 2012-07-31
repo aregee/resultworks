@@ -1,0 +1,19 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'ResultWorks admin' %}{% endblock %}
+{% block footer %}
+<hr>
+<center>
+<div 
+<p> AregeeFrameWorks Production.</p></div><a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangoproject120x25.gif" border="0" alt="A Django project." title="A Django project." /></a></center>
+<center><a href="https://twitter.com/iamaregee" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iamaregee</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center>
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans 'ResultWorks Admin' %}</h1>
+{% endblock %}
+
+
+{% block nav-global %}{% endblock %}
