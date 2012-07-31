@@ -33,14 +33,13 @@ This file is part of ResultWorks.
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with ResultWorks.  
-If not, see <http://www.gnu.org/licenses/>.
+    along with ResultWorks.If not, see <http://www.gnu.org/licenses/>.
 
 ### 2.Requirements 
-   For testing the app locally you need: 
-   Django==1.4
-   MySQL 
-   MySQL-python==1.2.3
+       For testing the app locally you need: 
+        Django==1.4
+   	MySQL 
+   	MySQL-python==1.2.3
       
   
 ### 3.Deployment 
@@ -87,7 +86,7 @@ Django Documentation <https://docs.djangoproject.com/en/1.4>
 Get Django :
 Download <https://www.djangoproject.com/download/1.4.1/tarball/>    	
 Or
-git clone https://github.com/django/django.git	
+	git clone https://github.com/django/django.git	
 	
 Hands on YouTube : <http://youtu.be/ko4yV8rrHR8>
 Demo:<http://resultworks.herokuapp.com/>,<http://resultworks.herokuapp.com/admin>
