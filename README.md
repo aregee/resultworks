@@ -33,7 +33,8 @@ This file is part of ResultWorks.
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with ResultWorks.  If not, see <http://www.gnu.org/licenses/>.
+    along with ResultWorks.  
+If not, see <http://www.gnu.org/licenses/>.
 
 ### 2.Requirements 
    For testing the app locally you need: 
@@ -75,20 +76,18 @@ This file is part of ResultWorks.
     $ git remote add upstream -m master git@github.com:aregee/resultworks.git .
     $ git pull -s recursive -X theirs upstream master
 
-   Now Push to Heroku :
-        
-    See Getting Started With Django on Heroku: <https://devcenter.heroku.com/articles/django>
-    You will have to change the Database in settings.py to make it work with Postgre SQL if you are using MySQL or You have a mysql server configured use it.
-
-    I have also tired hosting Django Apps on Openshift and I Will create a seprate fork for that ..
+Now Push to Heroku :
+See Getting Started With Django on Heroku: <https://devcenter.heroku.com/articles/django>
+You will have to change the Database in settings.py to make it work with Postgre SQL if you are using MySQL or You have a mysql server configured use it.
+I have also tired hosting Django Apps on Openshift and I Will create a seprate fork for that ..
     
-### 4. Useful Links 
+### 4. Useful Links:
+Django Documentation <https://docs.djangoproject.com/en/1.4>
     
-    Django Documentation <https://docs.djangoproject.com/en/1.4>
-    
-    Get Django :
-    	Download <https://www.djangoproject.com/download/1.4.1/tarball/>    	Or
-	git clone https://github.com/django/django.git	
+Get Django :
+Download <https://www.djangoproject.com/download/1.4.1/tarball/>    	
+Or
+git clone https://github.com/django/django.git	
 	
-    Hands on YouTube : <http://youtu.be/ko4yV8rrHR8>
-    Demo:<http://resultworks.herokuapp.com/>,<http://resultworks.herokuapp.com/admin>
+Hands on YouTube : <http://youtu.be/ko4yV8rrHR8>
+Demo:<http://resultworks.herokuapp.com/>,<http://resultworks.herokuapp.com/admin>
