@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Second Year Results</title>
+</head>
+
+<body>
+  <center>
+    <H1 align="center">Place Holder For College Header</H1>
+<!-- 	<IMG src="img.JPG"/> -->
+	<IMG src="{{ MEDIA_URL }}images/img.JPG"/>
+    </center>
+    <center>
+    <p>Enter your Roll Number</p>
+    <form action="/search2/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+
+
+    </form>
+    </center>
+</body>
+
+
+</html>
+{% block footer %}
+<hr>
+<left><div style="margin-left:"><img src="{{ MEDIA_URL }}images/heroku.jpg" width="120" height="50"/>
+
+</div></left>
+<center>
+<div 
+<p> AregeeFrameWorks Production.</p>
+<right><a href="https://twitter.com/iamaregee" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iamaregee</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></right></div></center>
+
+<div style="margin-right:-199px;margin-top:-60px;"><a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a></div>
+
+
+
+{% endblock %}

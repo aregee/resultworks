@@ -57,7 +57,6 @@
 	<table border="1" cellpadding="1" cellspacing="3" width="50%">
 	<tr>
 	<th rowspan="2">Total Marks Obtained</th><td>{{ total }}
-	<th rowspan="2">Grand Total</th><td>{{ gtot }}</td>
 	</tr>
 	<!--<tr>
 	  <td>{{ gtot }}

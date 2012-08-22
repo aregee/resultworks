@@ -130,10 +130,18 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'result',
+    'result2',
+    'object_permissions',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
 
+#Adding Authentication Backend Tuple
+
+AUTHENTICATION_BACKENDS=(
+    'django.contrib.auth.backends.ModelBackend',
+    'object_permissions.backend.ObjectPermBackend',
+)
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.

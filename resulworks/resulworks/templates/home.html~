@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Get Results</title>
+</head>
+<body>
+  <center>
+    <H1 align="center">Place Holder For College Header</H1>
+<!-- 	<IMG src="img.JPG"/> -->
+	<IMG src="{{ MEDIA_URL }}images/img.JPG"/>
+    </center>
+  <a href="/first">First Year</a>
+</body>
+</html>

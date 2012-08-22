@@ -10,10 +10,11 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'resulworks.views.home', name='home'),
-    url(r'^$','resulworks.views.search_result'),
+    url(r'^$', 'resulworks.views.home', name='home'),
+    url(r'^first/$','resulworks.views.first'),
+    url(r'^second/$','resulworks.views.second'),
     url(r'^search/$','resulworks.views.search'),
-    
+    url(r'^search2/$','resulworks.views.search2'),
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
