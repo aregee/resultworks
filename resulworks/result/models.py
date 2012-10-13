@@ -13,9 +13,9 @@ class Subject(models.Model):
 class StudentDep(models.Model):
     CHOICE = (
         (u'CSE',u'Computer Science And Engineering'),
-        (u'ECE',u'Electronics And Communication'),
-        (u'ME',u'Mechanical Engineering'),
-        (u'CHE',u'Chemical Engineering'),
+        #(u'ECE',u'Electronics And Communication'),
+        #(u'ME',u'Mechanical Engineering'),
+        #(u'CHE',u'Chemical Engineering'),
         )
     branch = models.CharField(max_length=150, choices=CHOICE, unique = True)
     subjects =models.ManyToManyField(Subject)
@@ -27,7 +27,7 @@ class Student(models.Model):
     student_id = models.CharField(max_length=6, primary_key = True)
     student_name = models.CharField(max_length=100)
     student_dep = models.ForeignKey(StudentDep)
-
+    
     def __unicode__(self):
         return self.student_name
 

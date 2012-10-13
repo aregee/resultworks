@@ -4,6 +4,7 @@ import os,imp
 PROJECT_PATH =  os.path.dirname(os.path.realpath(__file__))
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media')
 MEDIA_URL = '/media/'
+BANNER_DIR = os.path.join(os.path.dirname(__file__), 'static', 'images', 'banners')
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.media','django.contrib.auth.context_processors.auth',
@@ -13,7 +14,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    # ('Aregee', 'rahul.nbg@gmail.com'),
 )
 
 MANAGERS = ADMINS

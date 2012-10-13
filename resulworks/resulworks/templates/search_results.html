@@ -3,9 +3,19 @@
  <title>Results for {{ query }}</title>
 </head>
 <body>
+<center>
 
-<H1 align="center">Place Holder For College Header</H1>
-<center><img src="{{ MEDIA_URL }}images/grades.jpg" width="150" height="150"/></center>
+    <H2 align="center">Sir Chhotu Ram Institue Of Engineering and Technology </H2>
+    <h3 align="center"> CCS Uninversity , Meerut </h3>
+<!-- 	<IMG src="img.JPG"/> -->
+	<IMG src="{{ MEDIA_URL }}images/logo.png"/>
+<div align="center">
+<b><a href="/first">First Year</a></b>
+<b><a href="/second">Second Year</a></b>
+<b><a href="/third">Third Year</a></b>
+<b><a href="/fourth">Fourth Year</a></b>
+</div>
+</center>
 </body>
 
 {% if exams %}
@@ -59,10 +69,6 @@
 	<th rowspan="2">Total Marks Obtained</th><td>{{ total }}
 	<th rowspan="2">Grand Total</th><td>{{ gtot }}</td>
 	</tr>
-	<!--<tr>
-	  <td>{{ gtot }}
-	    </td>
-	  </tr>-->
 	</table>
 	</center>
 {% else %}
@@ -73,9 +79,9 @@
 </html>
 {% block footer %}
 <hr>
-<left><div style="margin-left:"><img src="{{ MEDIA_URL }}images/heroku.jpg" width="120" height="50"/>
+<center><div style="margin-left:"><img src="{{ MEDIA_URL }}images/openshift.png" width="220" height="150"/>
 
-</div></left>
+</div></center>
 <center>
 <div 
 <p> AregeeFrameWorks Production.</p>
