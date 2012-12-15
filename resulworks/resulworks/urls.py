@@ -16,6 +16,7 @@ urlpatterns = patterns('',
     url(r'^search/$','resulworks.views.search'),
     url(r'^search2/$','resulworks.views.search2'),
     url(r'^third/$','resulworks.views.third'),
+    url(r'^fourth/$','resulworks.views.fourth'),
     url(r'^images/banners/$','resulworks.views.banner'),    
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -18,12 +18,13 @@ def second(request):
 
     
 def third(request):
-    return direct_to_template(request,'search_form.html',)
-    #return HttpResponse("Not there yet")
+    #return direct_to_template(request,'search_form3.html',)
+    return HttpResponse("Not there yet")
 
 def fourth(request):
-    return direct_to_template(request,'search_form.html',)
+    #return direct_to_template(request,'search_form4.html',)
 
+    return HttpResponse("Not Ready yet")
 def search(request):
     if 'q' in request.GET and request.GET['q']:
         q = request.GET['q']

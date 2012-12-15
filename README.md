@@ -18,7 +18,7 @@ Using Django's Admin app,teachers or HOD's would be able to update student recor
 ### 1. Author 
 
 Authro: Aregee <rahul.nbg@gmail.com>
-Blog: <http://aregee.wordpress.com>
+Blog: <http://rahulgaur.info>
 
 This file is part of ResultWorks.
 
@@ -90,5 +90,5 @@ Or
 	git clone https://github.com/django/django.git	
 	
 Hands on YouTube : <http://youtu.be/ko4yV8rrHR8>
-Demo:<http://resultworks.herokuapp.com/>,<http://resultworks.herokuapp.com/admin>
-OpenShift : <http://resworks-collegeerp.rhcloud.com> , <https://resworks-collegeerp.rhcloud.com/admin>
+
+OpenShift : <http://resworks-rahulgaur.rhcloud.com> , <https://resworks-rahulgaur.rhcloud.com/admin>
